@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FRUITÉ — Fresh Fruit Tea</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- BACKGROUND -->
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#" class="logo">
+      FRUIT<span>É</span>
+    </a>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#story">Our Story</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="cart-btn" id="cartBtn">
+      🛒
+      <span id="cartCount">0</span>
+    </button>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </header>
+
+
+  <!-- HERO -->
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          ✦ 100% FRESH FRUIT
+        </div>
+
+        <h1>
+          Taste the
+          <span>Summer.</span>
+        </h1>
+
+        <p>
+          Fresh fruit tea crafted from real fruits,
+          premium tea leaves and a little bit of magic.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#menu" class="primary-btn">
+            Explore Menu →
+          </a>
+
+          <a href="#story" class="secondary-btn">
+            Our Story
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <strong>20+</strong>
+            <span>Fresh fruits</span>
+          </div>
+
+          <div>
+            <strong>4.9</strong>
+            <span>Customer rating</span>
+          </div>
+
+          <div>
+            <strong>100%</strong>
+            <span>Natural</span>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- HERO PRODUCT -->
+      <div class="hero-product">
+
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+
+        <div class="floating-fruit fruit-one">🍓</div>
+        <div class="floating-fruit fruit-two">🍊</div>
+        <div class="floating-fruit fruit-three">🍋</div>
+
+        <div class="drink-shadow"></div>
+
+        <div class="drink">
+          <div class="drink-lid"></div>
+
+          <div class="drink-cup">
+            <div class="tea"></div>
+
+            <div class="fruit-piece p1">🍓</div>
+            <div class="fruit-piece p2">🍊</div>
+            <div class="fruit-piece p3">🍋</div>
+
+            <div class="ice i1"></div>
+            <div class="ice i2"></div>
+            <div class="ice i3"></div>
+
+            <div class="cup-label">
+              <small>FRUITÉ</small>
+              <b>SUMMER</b>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- MARQUEE -->
+    <section class="marquee">
+      <div class="marquee-track">
+        <span>FRESH FRUIT ✦</span>
+        <span>REAL TEA ✦</span>
+        <span>NO ARTIFICIAL FLAVOR ✦</span>
+        <span>MADE WITH LOVE ✦</span>
+        <span>FRESH FRUIT ✦</span>
+        <span>REAL TEA ✦</span>
+      </div>
+    </section>
+
+
+    <!-- MENU -->
+    <section class="menu-section" id="menu">
+
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">OUR MENU</span>
+          <h2>Freshness<br><i>in every sip.</i></h2>
+        </div>
+
+        <p>
+          Pick your favorite combination.
+          Every cup is made fresh when you order.
+        </p>
+      </div>
+
+
+      <div class="products">
+
+        <article class="product-card" data-name="Strawberry Bliss" data-price="59000">
+
+          <div class="product-image strawberry-bg">
+            <div class="product-fruit">🍓</div>
+
+            <span class="badge">BEST SELLER</span>
+
+            <button class="quick-add">+</button>
+          </div>
+
+          <div class="product-info">
+            <div>
+              <h3>Strawberry Bliss</h3>
+              <p>Strawberry · Green Tea · Lychee</p>
+            </div>
+
+            <strong>59K</strong>
+          </div>
+
+        </article>
+
+
+        <article class="product-card" data-name="Mango Sunshine" data-price="55000">
+
+          <div class="product-image mango-bg">
+            <div class="product-fruit">🥭</div>
+
+            <button class="quick-add">+</button>
+          </div>
+
+          <div class="product-info">
+            <div>
+              <h3>Mango Sunshine</h3>
+              <p>Mango · Jasmine Tea · Orange</p>
+            </div>
+
+            <strong>55K</strong>
+          </div>
+
+        </article>
+
+
+        <article class="product-card" data-name="Berry Dream" data-price="62000">
+
+          <div class="product-image berry-bg">
+            <div class="product-fruit">🫐</div>
+
+            <span class="badge purple">NEW</span>
+
+            <button class="quick-add">+</button>
+          </div>
+
+          <div class="product-info">
+            <div>
+              <h3>Berry Dream</h3>
+              <p>Blueberry · Strawberry · Black Tea</p>
+            </div>
+
+            <strong>62K</strong>
+          </div>
+
+        </article>
+
+
+        <article class="product-card" data-name="Citrus Spark" data-price="49000">
+
+          <div class="product-image citrus-bg">
+            <div class="product-fruit">🍋</div>
+
+            <button class="quick-add">+</button>
+          </div>
+
+          <div class="product-info">
+            <div>
+              <h3>Citrus Spark</h3>
+              <p>Lemon · Orange · Oolong Tea</p>
+            </div>
+
+            <strong>49K</strong>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- STORY -->
+    <section class="story" id="story">
+
+      <div class="story-image">
+
+        <div class="story-card">
+          <span>EST.</span>
+          <strong>2026</strong>
+          <small>HO CHI MINH CITY</small>
+        </div>
+
+        <div class="story-fruit">🍊</div>
+
+      </div>
+
+
+      <div class="story-content">
+
+        <span class="eyebrow">OUR STORY</span>
+
+        <h2>
+          We believe
+          fruit tea should
+          <i>feel alive.</i>
+        </h2>
+
+        <p>
+          Không phải trà trái cây kiểu bình thường.
+          FRUITÉ được tạo ra để mỗi ly trà mang lại
+          cảm giác như đang uống cả một mùa hè.
+        </p>
+
+        <p>
+          Trái cây được chọn mỗi ngày, kết hợp cùng
+          những loại trà cao cấp để tạo nên vị thanh,
+          thơm và cực kỳ refreshing.
+        </p>
+
+        <a href="#contact" class="primary-btn">
+          Discover More →
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta" id="contact">
+
+      <div class="cta-glow"></div>
+
+      <span class="eyebrow">READY?</span>
+
+      <h2>
+        Your perfect
+        <i>summer sip</i>
+        is waiting.
+      </h2>
+
+      <button class="primary-btn" id="orderBtn">
+        Order Now →
+      </button>
+
+    </section>
+
+  </main>
+
+
+  <!-- CART -->
+  <div class="cart-overlay" id="cartOverlay">
+
+    <div class="cart">
+
+      <button class="close-cart" id="closeCart">×</button>
+
+      <span class="eyebrow">YOUR ORDER</span>
+
+      <h2>Your Cart</h2>
+
+      <div id="cartItems" class="cart-items">
+        <p class="empty-cart">Your cart is empty 🍓</p>
+      </div>
+
+      <div class="cart-total">
+        <span>Total</span>
+        <strong id="cartTotal">0K</strong>
+      </div>
+
+      <button class="primary-btn checkout">
+        Checkout →
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <footer>
+    <div class="logo">FRUIT<span>É</span></div>
+
+    <p>
+      Fresh fruit. Real tea. Good vibes.
+    </p>
+
+    <small>
+      © 2026 FRUITÉ. Made with 🍓
+    </small>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
